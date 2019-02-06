@@ -40,6 +40,7 @@ var cartItems = new Array()
 
 function total() {
   // write your code here
+  var 
 }
 
 function removeFromCart(item) {
