@@ -52,7 +52,7 @@ function removeFromCart(item) {
   for(var i in cart){
     if(cart[item].itemName == item){
       cart.splice(i, -1)
-      var removeFromCart = true
+      var itemRemoved = true
     } else {
       
     }
