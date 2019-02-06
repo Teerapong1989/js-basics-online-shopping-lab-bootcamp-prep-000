@@ -41,7 +41,9 @@ var cartItems = new Array()
 function total() {
   // write your code here
   var totalCartPrice = 0
-  
+  for(var price in cart){
+    totalCartPrice.push+= 
+  }
 }
 
 function removeFromCart(item) {
