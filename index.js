@@ -22,7 +22,7 @@ function viewCart() {
   // write your code here
   var newCartItem = new arry() 
   for(var item in cart){
-    newCartItem.push(`${})
+    newCartItem.push(`${cart.item})
   }
 }
 
