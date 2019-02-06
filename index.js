@@ -24,9 +24,17 @@ function viewCart() {
   for(var item in cart){
     newCartItem.push(`${cart[item].itemName} at $${cart[item].itemPrice}`)
     }
-    if(!cart.lenght){
-      
-    }
+   if (!cart.length) {
+    return "Your shopping cart is empty."
+  }
+  if (cart.length == 1) {
+    return `In your cart, you have ${cartItems}.`
+  }
+  if (cart.length > 1) {
+    var lastItem = cartItems.splice(cart.length - 1, 1)
+    var midItems = cartItems.join(', ')
+    return `In your cart, you have ${midItems}, and ${lastItem}.`
+  }
 }
 
 function total() {
