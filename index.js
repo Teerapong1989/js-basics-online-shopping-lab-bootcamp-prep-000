@@ -49,8 +49,8 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  for(var item in cart){
-    cart[item].delete
+  for(var i in cart){
+    if(){}
   }
 }
 
