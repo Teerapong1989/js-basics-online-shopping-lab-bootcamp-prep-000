@@ -20,11 +20,12 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var newCartItem = new arry() 
-  for(var item in cart){
-    newCartItem.push(`${cart[item].itemName} at $${cart[item].itemPrice}`)
-    }
-   if (!cart.length) {
+var cartItems = new Array()
+  for (var item in cart ) {
+    cartItems.push(`${cart[item].itemName} at $${cart[item].itemPrice}`)
+  }
+
+  if (!cart.length) {
     return "Your shopping cart is empty."
   }
   if (cart.length == 1) {
