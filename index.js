@@ -41,7 +41,7 @@ var cartItems = new Array()
 function total() {
   // write your code here
   var totalCartPrice = 0
-  for(var price in cart){
+  for(var item in cart){
     totalCartPrice += cart[item].itemPrice
     return totalCartPrice
   }
