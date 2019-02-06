@@ -20,7 +20,9 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  for(){}
+  for(){
+    return 
+  }
 }
 
 function total() {
