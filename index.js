@@ -24,7 +24,7 @@ function viewCart() {
   for(var item in cart){
     newCartItem.push(`${cart[item].itemName} at $${cart[item].itemPrice}`)
     }
-    if(){
+    if(!cart.lenght){
       
     }
 }
