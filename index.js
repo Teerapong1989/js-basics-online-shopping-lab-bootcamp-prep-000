@@ -53,7 +53,9 @@ function removeFromCart(item) {
     if(cart[item].itemName == item){
       cart.splice(i, -1)
       var itemRemoved = true
-    } if(){
+    } if(itemRemoved){
+      return cart
+    } else {
       
     }
   }
