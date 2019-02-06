@@ -23,6 +23,7 @@ function viewCart() {
   var newCartItem = new arry() 
   for(var item in cart){
     newCartItem.push(`${cart[item].itemName} at $${cart[item].itemPrice}`)
+    
   }
 }
 
