@@ -49,7 +49,9 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  var 
+  for(var item in cart){
+    cart[item].delete
+  }
 }
 
 function placeOrder(cardNumber) {
