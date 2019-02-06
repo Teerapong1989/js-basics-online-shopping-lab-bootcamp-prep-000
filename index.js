@@ -50,7 +50,9 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   for(var i in cart){
-    if(cart[item].itemName){}
+    if(cart[item].itemName == item){
+      
+    }
   }
 }
 
