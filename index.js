@@ -20,7 +20,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var newCart = 
+  var newCartItem = new arry 
   for(){
     return 
   }
