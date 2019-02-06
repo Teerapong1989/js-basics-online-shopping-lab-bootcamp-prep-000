@@ -53,7 +53,7 @@ function removeFromCart(item) {
     if(cart[item].itemName == item){
       cart.splice(i, -1)
       var itemRemoved = true
-    } else {
+    } if(){
       
     }
   }
